@@ -126,7 +126,7 @@ export default function App() {
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full p-1 bg-gradient-to-tr from-cyber-cyan via-cyber-purple to-cyber-blue shadow-[0_0_50px_rgba(6,182,212,0.3)]">
               <div className="w-full h-full rounded-full overflow-hidden bg-cyber-dark relative">
                 <img 
-                  src="/src/kelz.png" 
+                  src="/kelz.png" 
                   alt="Kezang Choden" 
                   className="w-full h-full object-cover scale-110"
                 />
