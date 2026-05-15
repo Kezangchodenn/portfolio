@@ -37,7 +37,7 @@ const projects = [
     role: "FullStack Developer & AI Engineer",
     description: "Developed an intelligent chatbot with human escalation, integrating LLMs, RAG, and sentiment analysis.",
     tags: ["LLMs", "RAG", "React", "Node.js"],
-    image: "src/chat.png",
+    image: "/chat.png",
     link: "#",
     github: "#"
   },
@@ -46,7 +46,7 @@ const projects = [
     role: "AI/ML Engineer & Frontend Developer",
     description: "AI navigation system for visually impaired users with real-time obstacle detection using YOLO and Dzongkha audio guidance.",
     tags: ["YOLO", "PyTorch", "React Native", "AI"],
-    image: "src/lam.png",
+    image: "/lam.png",
     link: "#",
     github: "#"
   },
@@ -55,7 +55,7 @@ const projects = [
     role: "Project Leader & Fullstack Developer",
     description: "Led full-stack development focusing on UX, design, and functionality for the Prime Minister's Office of Bhutan.",
     tags: ["React", "UX Design", "Figma", "Tailwind"],
-    image: "src/pmo.jpg",
+    image: "/pmo.jpg",
     link: "#",
     github: "#"
   },
@@ -64,7 +64,7 @@ const projects = [
     role: "FullStack Developer & AI Engineer",
     description: "Facial scan AI model to detect skin conditions and provide personalized skincare recommendations.",
     tags: ["Computer Vision", "TensorFlow", "React", "Python"],
-    image: "src/ai.png",
+    image: "/ai.png",
     link: "#",
     github: "#"
   }
