@@ -28,7 +28,7 @@ export default function OrbitalSkills() {
       {/* Robotic Hand - Positioned on the left - Static */}
       <div className="relative z-10 w-full md:w-1/2 h-full flex items-center justify-center pointer-events-none">
         <img 
-          src="./hand.png" 
+          src="/hand.png" 
           alt="AI Hand" 
           className="w-[200%] h-[80%] object-contain filter drop-shadow-[0_0_30px_rgba(6,182,212,0.4)]"
         />
