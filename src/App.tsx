@@ -1,3 +1,4 @@
+
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -38,7 +39,7 @@ const projects = [
     description: "Developed an intelligent chatbot with human escalation, integrating LLMs, RAG, and sentiment analysis.",
     tags: ["LLMs", "RAG", "React", "Node.js"],
     image: "/chat.png",
-    link: "#",
+    link: "https://www.figma.com/design/BxMklecowqbnhEkaUW7vla/human-escalation-chatbot?node-id=0-1&t=YUcYYEVbs0si8OO5-1",
     github: "#"
   },
   {
@@ -47,7 +48,7 @@ const projects = [
     description: "AI navigation system for visually impaired users with real-time obstacle detection using YOLO and Dzongkha audio guidance.",
     tags: ["YOLO", "PyTorch", "React Native", "AI"],
     image: "/lam.png",
-    link: "#",
+    link: "https://www.figma.com/design/4f7tShfZh9bn82DRIw2tya/SmartSight-AI?node-id=0-1&t=eUuJGGamrO8RLSPG-1",
     github: "#"
   },
   {
@@ -56,7 +57,7 @@ const projects = [
     description: "Led full-stack development focusing on UX, design, and functionality for the Prime Minister's Office of Bhutan.",
     tags: ["React", "UX Design", "Figma", "Tailwind"],
     image: "/pmo.jpg",
-    link: "#",
+    link: "https://www.figma.com/design/vp3GiRa9ml0PzGa12DR665/pmo?node-id=316-824&t=MnUHC9dwRJe2eNJQ-1",
     github: "#"
   },
   {
@@ -65,7 +66,7 @@ const projects = [
     description: "Facial scan AI model to detect skin conditions and provide personalized skincare recommendations.",
     tags: ["Computer Vision", "TensorFlow", "React", "Python"],
     image: "/ai.png",
-    link: "#",
+    link: "https://www.figma.com/design/c0e1Em7eQo4vfChlKjrpie/Prj202?node-id=4-2&t=e9MRIMq4PbOZWMFM-1",
     github: "#"
   }
 ];
@@ -490,6 +491,20 @@ export default function App() {
                         </span>
                       ))}
                     </div>
+
+                    {project.link && project.link !== "#" && (
+                      <div className="pt-4 border-t border-white/10 flex justify-between items-center mt-2 group-hover:border-cyber-cyan/30 transition-colors">
+                        <a 
+                          href={project.link} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="flex items-center gap-1.5 text-xs font-black uppercase text-cyber-cyan hover:text-white tracking-widest tech-mono transition-colors"
+                        >
+                          <Layout className="w-3.5 h-3.5 text-cyber-cyan" />
+                          See Design Canvas →
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </motion.div>
               </motion.div>
@@ -708,4 +723,3 @@ export default function App() {
     </div>
   );
 }
-
